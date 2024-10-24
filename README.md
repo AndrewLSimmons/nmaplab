@@ -1,6 +1,6 @@
 # How to Scan a Host using the Nmap Utility in Kali Linux? 
 <h2>Description</h2>
-The Network Mapper (Nmap) utility is a common tool used with hackers as well as system administrators to scan a network host or device such as a server, pc, router, etc. The goal of the Nmap utility is to gather information about a targeted system or network. <br /><br />
+The Network Mapper (Nmap) utility is a common tool used with hackers as well as system administrators to scan a network host or device such as a server, pc, router, etc. The goal of the Nmap utility is to gather information about a targeted system or network and find vulnerabilities through the open ports/services being used. <br /><br />
 The information that will be gathered in the Nmap lab includes:<br /><br />
 <li>Open ports</li>
 <li>Services running on the ports</li>
@@ -39,7 +39,8 @@ We will run the following command at the root (sudo command) to find out the ver
 <b><i>sudo nmap -v -sT -sV -O scanme.nmap.org</b></i> <br /><br />
 <img src="Images/nmap advanced command.png" height="100%" width="100%"/><br />
 <h3>Step 3</h3><br/>
-From the social engineering attack vector list of options. Choose the "Website Attack Vectors" option.<br /><br />
+Running the Nmap utility with the -v flag did give satisfactory information but there is another way to perform a full scan with Nmap. <br /><br />
+If you want to find port states and traceroute information without establishing a full TCP connection with the firewall, the TCP SYN (stealth) Scan approach can be used with the (-sS) flag in conjunction with the(-A) flag (full scan flag).<br /><br />
 <img src="https://github.com/AndrewLSimmons/CredentialHarvestingLab/blob/8c669824b6e22f88087ea63d9b660da6f8a0b254/Images/Website%20Attack%20Vectors.png" height="50%" width="50%"/>
 </p>
 
