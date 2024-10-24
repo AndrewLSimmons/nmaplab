@@ -41,7 +41,7 @@ We will run the following command at the root (sudo command) to find out the ver
 <h3>Step 3</h3><br/>
 Running the Nmap utility with the -v flag did give satisfactory information but there is another way to perform a full scan with Nmap. <br /><br />
 If you want to find port states and traceroute information without establishing a full TCP connection with the firewall, the TCP SYN (stealth) Scan approach can be used with the (-sS) flag in conjunction with the(-A) flag (full scan flag).<br /><br />
-<img src="https://github.com/AndrewLSimmons/CredentialHarvestingLab/blob/8c669824b6e22f88087ea63d9b660da6f8a0b254/Images/Website%20Attack%20Vectors.png" height="50%" width="50%"/>
+<img src="Images/nmap tcp syn (stealth) scan (-sS).png" height="100%" width="100%"/>
 </p>
 
 <!--
