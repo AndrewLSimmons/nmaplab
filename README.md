@@ -34,7 +34,9 @@ Boot up Kali Linux virtual machine and login to virtual machine. After logging i
 From the scan results, there are 4 ports open showing the SSH, HTTP, nping-echo, and Elite services running on the open ports. The scan performed though only gives basic information about the ports. The next steps in the lab will go over more advanced scanning techniques in the Nmap utility <br /><br />
 <img src="Images/nmap open ports.png" height="85%" width="85%"/><br />
 <h3>Step 2</h3><br/>
-From the SET menu, choose the "Social Engineering Attacks" option.<br /><br />
+To start with an advanced scan of the Nmap utility, we may want to determine versions for the services running on each port to find out if the service is out of date and is possibly vulnerable to exploitation. <br /><br />
+We will run the following command at the root (sudo command) to find out the version of the services being used:<br /><br />
+<b><i>sudo nmap -v -sT -sV -O scanme.nmap.org</b></i> <br /><br />
 <img src="Images/nmap advanced command.png" height="100%" width="100%"/><br />
 <h3>Step 3</h3><br/>
 From the social engineering attack vector list of options. Choose the "Website Attack Vectors" option.<br /><br />
