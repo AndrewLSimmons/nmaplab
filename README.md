@@ -31,8 +31,8 @@ The information that will be gathered in the Nmap lab includes:<br /><br />
 Boot up Kali Linux virtual machine and login to virtual machine. After logging into Kali Linux virtual machine, open a terminal command window and start the Network Mapper (Nmap) utility by typing the following command in the terminal: <br />
 <br />
 <b><i>nmap scanme.nmap.org</i></b><br /><br />
-Select "Update SET configuration" option to refresh SET utility before proceeding to step 2.<br /><br />
-<img src="https://github.com/AndrewLSimmons/CredentialHarvestingLab/blob/8c669824b6e22f88087ea63d9b660da6f8a0b254/Images/SudoSetoolkit.png" height="50%" width="50%"/><br />
+From the scan results, there are 4 ports open showing the SSH, HTTP, nping-echo, and Elite services running on the open ports. The scan performed though only gives basic information about the ports. The next steps in the lab will go over more advanced scanning techniques in the Nmap utility <br /><br />
+<img src="Images/nmap open ports.png" height="50%" width="50%"/><br />
 <h3>Step 2</h3><br/>
 From the SET menu, choose the "Social Engineering Attacks" option.<br /><br />
 <img src="https://github.com/AndrewLSimmons/CredentialHarvestingLab/blob/8c669824b6e22f88087ea63d9b660da6f8a0b254/Images/Social%20Engineering%20Attacks.png" height="50%" width="50%"/><br />
